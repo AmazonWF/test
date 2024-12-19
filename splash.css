@@ -1,0 +1,20 @@
+/* styles.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+.splash-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash-screen img {
+    width: 150px; /* Adjust the size of your gif */
+    height: auto;
+}

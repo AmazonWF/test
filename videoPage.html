@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <style>
+        /* Center the video container */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+            background-color: #f4f7fc; /* Optional background color */
+            font-family: Arial, sans-serif;
+        }
+
+        .content {
+            text-align: center; /* Center the content inside */
+        }
+
+        /* Styling for the iframe video */
+        .video iframe {
+            max-width: 100%;
+            height: 315px; /* Maintain height of iframe */
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .videos {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Videos Section -->
+    <section id="videoSection" class="section">
+        <div class="content">
+            <h1>Watch the Video</h1>
+            <div class="videos">
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID1?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID2?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
